@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+  .course {
+    position: absolute;
+    width: 236px;
+    height: 87px;
+    left: 448px;
+    top: 137px;
+  }
+
+  .course .couse-subject {
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 481px;
+    top: 188px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #A5A5A5;
+
+
+  }
+
+
