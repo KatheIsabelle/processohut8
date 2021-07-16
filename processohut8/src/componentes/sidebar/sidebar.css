@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.conteiner .sidebar {
+    position: fixed;
+    width: 336px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: #FAFAFA;
+    padding: 85px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+
+.conteiner .sidebar .sidebar-avatar__image {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 123px;
+    top: 85px;
+    border-radius: 50%;
+}
+
+.conteiner .sidebar .sidebar-avatar__name {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    left: 112px;
+    top: 191px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+
+    color: #727272;
+
+    white-space: nowrap;
+}
+
+.conteiner .sidebar .sidebar-avatar__course {
+    position: absolute;
+    width: 148px;
+    height: 19px;
+    left: 94px;
+    top: 224px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Nunito', sans-serif;
+    
+
+    /* identical to box height */
+
+    color: #727272;
+}
+
+.conteiner .sidebar .sidebar-menu__dashboard{
+    position: absolute;
+    width: 89px;
+    height: 25px;
+    left: 67px;
+    top: 302px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+
+    color: #6A6A6A;
+}
+
+.conteiner .sidebar .sidebar-menu__area {
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 67px;
+    top: 362px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+
+    color: #6A6A6A;
+
+    white-space: nowrap;
+}
