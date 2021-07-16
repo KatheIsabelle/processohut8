@@ -14,7 +14,7 @@ const Activities = ({activities}) => (
             </div>
             <h1 className="activities-next">{activities.next}</h1>
             <div>
-                <cartão />
+                <Card />
             </div>
         </div>
     </div>
