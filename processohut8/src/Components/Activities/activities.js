@@ -1,7 +1,8 @@
 import React from 'react';
 import Rectangle from './Rectangle/rectangle';
-import Card from './Card/card'
+import Card from './Card/card';
 import './activities.css';
+
 
 const Activities = ({activities}) => (
 
@@ -9,11 +10,11 @@ const Activities = ({activities}) => (
         <div>
             <h1 className="activities-resume">{activities.resume}</h1>
             <div>
-                <Rectangle />
+                <retangulo />
             </div>
             <h1 className="activities-next">{activities.next}</h1>
             <div>
-                <Card />
+                <cartão />
             </div>
         </div>
     </div>
